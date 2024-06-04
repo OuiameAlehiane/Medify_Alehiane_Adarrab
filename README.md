@@ -4,14 +4,6 @@
 # Medify 💊
 Medify est une application médicale Android qui traite et résout les problèmes des patients et des médecins. 
 
-## Installation d'applications
-
-***Vous pouvez installer et tester la dernière application Medify ci-dessous 👇***
-
-[![Medify](https://img.shields.io/badge/Medify✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/aritra-tech/Medify/releases/tag/1.0.0)
-
-[Want to try the app](https://appetize.io/app/oqjrqtjcckwae4lsnghggdonpi?device=pixel4&osVersion=11.0&scale=50)
-
 # Notre idée 💡
 - Medify est une application Android qui résout non seulement le problème des patients en tant qu'utilisateurs, mais aussi celui des médecins.
 
