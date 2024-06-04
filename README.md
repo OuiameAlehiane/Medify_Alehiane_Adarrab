@@ -2,42 +2,42 @@
 
 
 # Medify 💊
-Medify is a medical android app which deals and solves issues of both patients and doctors. 
+Medify est une application médicale Android qui traite et résout les problèmes des patients et des médecins. 
 
-## Application Install
+## Installation d'applications
 
-***You can Install and test latest Medify app from below 👇***
+***Vous pouvez installer et tester la dernière application Medify ci-dessous 👇***
 
 [![Medify](https://img.shields.io/badge/Medify✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/aritra-tech/Medify/releases/tag/1.0.0)
 
 [Want to try the app](https://appetize.io/app/oqjrqtjcckwae4lsnghggdonpi?device=pixel4&osVersion=11.0&scale=50)
 
-# Our Idea 💡
-- Medify is an Android application that not only solves the issue of the patients as users, but also solves the problems of the doctors as well.
+# Notre idée 💡
+- Medify est une application Android qui résout non seulement le problème des patients en tant qu'utilisateurs, mais aussi celui des médecins.
 
-- The app offers users to book an appointment with the doctor that are registered in the app already.
+- L'application propose aux utilisateurs de prendre rendez-vous avec le médecin déjà enregistré dans l'application..
 
-- The waiting queue is sorted according to the priority and not ‘First Come First Serve’ which allows all the patients to get equal priority.
+- La file d'attente est triée selon la priorité et non selon le principe « premier arrivé, premier servi », ce qui permet à tous les patients d'avoir la même priorité.
 
-- The users can upload their prescription which only keeps the latest upload which the doctor can check.
+- Les utilisateurs peuvent télécharger leur ordonnance qui ne conserve que le dernier téléchargement que le médecin peut vérifier.
 
-- The users can monitor their health data which is shown in a chart of last 5 data from their report.
+- Les utilisateurs peuvent surveiller leurs données de santé qui sont affichées dans un graphique des 5 dernières données de leur rapport.
 
-# App Features 🎯
+# Fonctionnalités de l'application🎯
 
-- <b>Appointment Booking:</b> The user can search doctors by their name, phone or email to book an appointment.
-The users have to answer some questions regarding their issue, this way the appointment is booked.
-- <b>Appointment Sorting:</b> We designed an alorithm that analyses the user data, makes some calculation and sorts the patient queue according to the priority. 
-This way every patient gets priority equally.
-- <b>Prescription:</b> The user uploads their latest prescrition in the app, so when booken an appointment, the doctor can check their recent 
-prescription and hence carrying prescription is not required.
-- <b>Statistics:</b> The user can add and monitor their past 5 data of health reports which is displayed using charts.
-- <b>Instant UPI:</b> When asked about the fee amount, it sounds quite unprofessional for Doctors when they have to tell about it. 
-But from now, the Doctor can add their fee details and the app generates a QR Code iteself.
-- <b>Appointment / Patient Queue List:</b> The users can check their appointment list of all doctors to which they booked appointment. 
-The patient queue is a list that is sorted using our alogrithm and displayed. 
+- <b>Prise de rendez-vous :</b> L'utilisateur peut rechercher des médecins par leur nom, leur téléphone ou leur e-mail pour prendre rendez-vous.
+Les utilisateurs doivent répondre à quelques questions concernant leur problème, de cette façon le rendez-vous est pris.
+- <b>Tri des rendez-vous :</b> Nous avons conçu un algorithme qui analyse les données utilisateur, effectue des calculs et trie la file d'attente des patients en fonction de la priorité. 
+De cette façon, chaque patient bénéficie d’une priorité égale.
+- <b>Prescription:</b> L'utilisateur télécharge sa dernière prescription dans l'application. Ainsi, lors de la prise de rendez-vous, le médecin peut vérifier sa récente prescription. 
+ordonnance et donc avoir une ordonnance n’est pas nécessaire.
+- <b>Statistics:</b> L'utilisateur peut ajouter et surveiller ses 5 dernières données de rapports de santé qui sont affichées à l'aide de graphiques.
+- <b>Instant UPI:</b> Lorsqu'on les interroge sur le montant des honoraires, cela semble tout à fait peu professionnel de la part des médecins lorsqu'ils doivent en parler. 
+Mais à partir de maintenant, le médecin peut ajouter le détail de ses honoraires et l'application génère elle-même un code QR.
+- <b>Liste de rendez-vous / file d'attente des patients :</b> Les utilisateurs peuvent consulter leur liste de rendez-vous de tous les médecins avec lesquels ils ont pris rendez-vous. 
+La file d'attente des patients est une liste triée à l'aide de notre algorithme et affichée. 
 
-## 📸 Screenshots 
+## 📸 Captures d'écran
 
 |   |   |   |
 |---|---|---|
@@ -45,7 +45,7 @@ The patient queue is a list that is sorted using our alogrithm and displayed.
 | ![4](https://github.com/aritra-tech/Medify/assets/62587060/61f0a2c0-7499-4c33-b3aa-ebdc8fab2487) | ![5](https://github.com/aritra-tech/Medify/assets/62587060/9e4b7d0a-aa6a-4954-afef-257c80fd6487) | ![6](https://github.com/aritra-tech/Medify/assets/62587060/665ae932-e1ee-4dcb-8c83-b5a4ce74150f)
 
 
-# Built With 🔩
+# Construit avec🔩
 
 - <b>[Kotlin](https://kotlinlang.org/docs/android-overview.html)</b> - We developed this project using kotlin in backend & XML to implement designs into code.
 The app was developed in [Android Studio](https://developer.android.com/studio). We have also used some open source libraries like [ZXing for QR Code](https://github.com/zxing/zxing), [Chart](https://github.com/majorkik/SparkLineLayout) and some [UI libraries](https://material.io/).
@@ -64,51 +64,10 @@ The design we used is minimal as well as clean. People with colorbindness will h
 - <b>[ZXing - QR Code Generator](https://github.com/zxing/zxing)</b> - ZXing's QR Code generator library to generate QR Code from Strings.
 
 
-# Project Setup 📝
-- Clone the repository by the following link and open the project in Android Studio or Git Bash
-- ```bash
-  https://github.com/aritra-tech/Medify.git
-- Connect it to your Firebase Account -
-  - 1 [How to Disconnect Firebase Project?](https://stackoverflow.com/questions/38120862/remove-firebase-analytics-from-android-app-completely)
-  - 2 [How to Disconnect Firebase Project?](https://stackoverflow.com/questions/51549554/how-to-completely-disconnect-an-android-app-from-firebase-in-android-studio)
-- After removing the account, link to your own firebase project to test and use.
-- Follow the above steps to create account and proceed
-
-- **Important** (Please remove your googleservices.json before committing changes)
-
 # Flow of the Application 🔧
 ![Medify (1) 1](https://user-images.githubusercontent.com/80090908/189736871-99886e3d-6c44-486b-8ee5-2dcc980526ad.png)
 
-## 📕 Authors
-<a href="https://github.com/binayshaw7777/RawTemplate/graphs/contributors">
- <img src="https://contrib.rocks/image?repo=binayshaw7777/RawTemplate" />
   
-## 📝 License
 
-```
-MIT License
-
-Copyright (c) 2022 Medify
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![ForTheBadge ANDROID](https://forthebadge.com/images/badges/built-for-android.svg)
 ![ForTheBadge GIT](https://forthebadge.com/images/badges/uses-git.svg)
